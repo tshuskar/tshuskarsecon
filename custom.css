@@ -1,0 +1,90 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box; }
+
+.red {
+  border: 1px solid red; }
+
+.green {
+  border: 1px solid #8bc34a; }
+
+.header {
+  background-image: url(./banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 865px;
+  padding: 10px;
+  justify-content: center; }
+  .header .banner {
+    padding: 0 15px;
+    margin: 0 60px;
+    padding: 15px;
+    max-width: 1200px; }
+    .header .banner .about-sign-in {
+      text-align: right; }
+      .header .banner .about-sign-in .about,
+      .header .banner .about-sign-in .sign-in {
+        padding: 5px 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 200; }
+      .header .banner .about-sign-in .sign-in {
+        margin-left: 20px;
+        border: 2px solid #8bc34a;
+        border-radius: 20px;
+        color: #8bc34a; }
+      .header .banner .about-sign-in .about {
+        color: #283238; }
+    .header .banner .logo {
+      background-image: url(./hapoERP.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 120px;
+      margin-top: 160px; }
+    .header .banner .icon {
+      text-align: center;
+      justify-content: space-between; }
+      .header .banner .icon .icon-Better,
+      .header .banner .icon .icon-Together,
+      .header .banner .icon .icon-Faster {
+        display: inline-block;
+        width: 20%;
+        padding: 20px;
+        font-size: 36px; }
+        .header .banner .icon .icon-Better span,
+        .header .banner .icon .icon-Together span,
+        .header .banner .icon .icon-Faster span {
+          display: block; }
+        .header .banner .icon .icon-Better .icon-Better img,
+        .header .banner .icon .icon-Better .icon-Together img,
+        .header .banner .icon .icon-Better .icon-Faster img,
+        .header .banner .icon .icon-Together .icon-Better img,
+        .header .banner .icon .icon-Together .icon-Together img,
+        .header .banner .icon .icon-Together .icon-Faster img,
+        .header .banner .icon .icon-Faster .icon-Better img,
+        .header .banner .icon .icon-Faster .icon-Together img,
+        .header .banner .icon .icon-Faster .icon-Faster img {
+          width: 52px;
+          height: 48px; }
+      .header .banner .icon .icon-Together {
+        margin-left: 30px;
+        margin-right: 30px; }
+    .header .banner .contain {
+      margin-top: 60px;
+      margin-bottom: 30px;
+      justify-content: center;
+      text-align: center;
+      font-style: italic; }
+    .header .banner .btn {
+      text-align: center; }
+      .header .banner .btn .btn button {
+        margin-top: 30px;
+        padding: 7px 15px;
+        background: linear-gradient(311.12deg, #b4ec51 0%, #429321 100%);
+        font-size: 15px;
+        border-radius: 20px;
+        text-transform: uppercase; }
+
+/*# sourceMappingURL=custom.css.map */
